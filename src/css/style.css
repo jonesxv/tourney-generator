@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+:root {
+  --bg-color: #c6c6c6;  
+  --bg-color2: #FFF;
+  --primary-color: #012B39;
+  --primary-shadow: #004e68;
+}
+
+.tournament-start {
+  width: 450px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 450px;
+  margin: 0 auto 200px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: var(--primary-color);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: var(--primary-shadow);
+}
+
+.main-app {
+  margin: 50px;
+  padding: 45px;
+}
+
+.tourney-list {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.pool {
+  float: left;
+}
+
+.fds {
+  clear: both;
+}
+
+.pool-game {
+  float: left;
+}
+
+.pool-game input {
+  border: none;
+  width: 40px;
+  float: right;
+}
+
+.pool-components {
+  margin-left: 200px;
+}
+
+
+table {
+  background: var(--primary-color);
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+  max-width: 320px;
+  width: 320px;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  width: 500px;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+  max-width: 100px;
+}
+
+.point-diff {
+  width: 50px;
+}
+
+.pool-num-form input {
+  width: 50px;
+}
+
+
+body {
+  background: var(--bg-color); /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, var(--bg-color), var(--bg-color2));
+  background: -moz-linear-gradient(right, var(--bg-color), var(--bg-color2));
+  background: -o-linear-gradient(right, var(--bg-color), var(--bg-color2));
+  background: linear-gradient(to left, var(--bg-color), var(--bg-color2));
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
